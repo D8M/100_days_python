@@ -10,6 +10,5 @@ numToCheck = int(input ("Please enter a number to check and see if its odd or ev
 
 if numToCheck % 2 == 0:
     print(numToCheck,"number is even")
-
 else:
     print(numToCheck, "number is odd")

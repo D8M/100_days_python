@@ -6,7 +6,8 @@ print(f"{Fore.GREEN}**********************************************{Style.RESET_A
 print(f"{Fore.GREEN}*        Fairground ride age verifier        *{Style.RESET_ALL}")
 print(f"{Fore.GREEN}**********************************************\n{Style.RESET_ALL}")
 
-customerHeight = int(input("Hello, please enter your height in M: "))
+customerHeight = float(input("Hello, please enter your height in M: "))
+ #var = customerHeight * 100  get M converted to cm
 
 if customerHeight < 120:
     print("We're sorry, you can't take the ride just yet...")
