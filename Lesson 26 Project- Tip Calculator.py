@@ -2,9 +2,9 @@ import colorama
 from colorama import Fore
 from colorama import Style
 
-print("**********************************************")
-print("*             Tip Calculator                 *")
-print("**********************************************\n")
+print(f"**********************************************")
+print(f"*             Tip Calculator                 *")
+print(f"**********************************************\n")
 
 print("Hello and welcome to the tip calculator\n")
 
@@ -18,6 +18,6 @@ newTotal = float((percent/100 * totalBill) + totalBill)
 
 print(f"The total bill including tip at {percent}% is: {Fore.BLUE}{newTotal:.2f}{Style.RESET_ALL} euro,"
       f" and each person splitting the bill "
-      f"should pay  {Fore.GREEN}{(newTotal/howManyPeeps):.2f}{Style.RESET_ALL} each.")
+      f"should pay {Fore.GREEN}{(newTotal/howManyPeeps):.2f}{Style.RESET_ALL} each.")
 
 
