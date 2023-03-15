@@ -14,8 +14,8 @@ else:
     print(whichYear,"is not a leap year\n")
 
     # This program checks firstly that whichYear inputted when modded 4, leaves no remainder, AND to see
-    #  also that whichYear modded 100 is not equal to any remainder. So if the first two checks are true then that
+    #  also that whichYear modded 100 leaves no remainder. So if the first two checks are true then that
     # part of the expression evaluates to true, then the 2nd part of the expression is checked to see
     # if whichYear mod 400 leaves no remainder,then if this is also true then it's a leap year.
-    # If it turns out to be false, then it's not a leap year.
+    # If any of the checks turn out to be false, then it's not a leap year.
 
