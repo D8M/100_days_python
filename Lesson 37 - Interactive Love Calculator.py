@@ -23,6 +23,11 @@ o_count = combinedString.count('o')
 v_count = combinedString.count('v')
 e_count = combinedString.count('e')
 
+# true = t + r + u + e
+# love = l + o + v + e
+# love_score = str(true) + str(love)
+
+
 print(f"T occurs {combinedString.count('t')}")
 print(f"R occurs {combinedString.count('r')}")
 print(f"U occurs {combinedString.count('u')}")
