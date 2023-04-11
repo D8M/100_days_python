@@ -6,7 +6,7 @@ print(f"{Fore.GREEN}**********************************************{Style.RESET_A
 print(f"{Fore.GREEN}*             Odd or Even number             *{Style.RESET_ALL}")
 print(f"{Fore.GREEN}**********************************************\n{Style.RESET_ALL}")
 
-numToCheck = int(input ("Please enter a number to check and see if its odd or even: "))
+numToCheck = float(input("Please enter a number to check and see if its odd or even: "))
 
 if numToCheck % 2 == 0:
     print(numToCheck,"number is even")

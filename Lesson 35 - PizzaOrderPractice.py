@@ -2,9 +2,9 @@ import colorama
 from colorama import Fore
 from colorama import Style
 
-print(f"{Fore.GREEN}**********************************************{Style.RESET_ALL}")
-print(f"{Fore.GREEN}*           Pizza Order Practice             *{Style.RESET_ALL}")
-print(f"{Fore.GREEN}**********************************************\n{Style.RESET_ALL}")
+print(f"{Fore.YELLOW}**********************************************{Style.RESET_ALL}")
+print(f"{Fore.BLUE}*           Pizza Order Practice             *{Style.RESET_ALL}")
+print(f"{Fore.RED}**********************************************\n{Style.RESET_ALL}")
 
 size = input("Would you like to order a Small, Medium or Large pizza? Choose S,M or L ")
 

@@ -34,6 +34,15 @@ print(f"{Fore.RED}**********************************************{Style.RESET_ALL
 print(f"{Fore.GREEN}*         Treasure Island Game               *{Style.RESET_ALL}")
 print(f"{Fore.YELLOW}**********************************************\n{Style.RESET_ALL}")
 
+print(r"""\
+     ,________________________________       
+|__________,----------._ [____]  ""-,__  __...-----==="
+        (_(||||||||||||)___________/   ""             |
+           `----------' Krogg98[ ))"-,                |
+                                ""    `,  _,--...___  |
+                                        `/           
+""")
+
 print("Welcome to the Treasure Island Game!")
 print("Your mission is to find treasure!\n")
 print("(Enter Y/N or L/R to navigate your way through the game!)\n")
